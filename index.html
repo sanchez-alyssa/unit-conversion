@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Unit Conversion</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+	</head>
+	<body>
+		<!-- header -->
+		<div class="header">
+			<h1>Metric/Imperial Unit Conversion</h1>
+			<input type="text" id="input-el" />
+			<button id="convert-btn">Convert</button>
+		</div>
+		<!-- wrapper -->
+		<div class="wrapper">
+			<!-- length -->
+			<div class="length table">
+				<p class="wrapper-unit">Length (Meter/Feet)</p>
+				<p id="length-el"></p>
+			</div>
+			<!-- volume -->
+			<div class="volume table">
+				<p class="wrapper-unit">Volume (Liters/Gallons)</p>
+				<p id="volume-el"></p>
+			</div>
+			<!-- mass -->
+			<div class="mass table">
+				<p class="wrapper-unit">Mass (Kilograms/Pounds)</p>
+				<p id="mass-el"></p>
+			</div>
+		</div>
+
+		<div class="note">
+			<p>Note: It is rounded to 3 decimal places.</p>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
